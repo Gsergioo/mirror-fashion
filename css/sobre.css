@@ -1,0 +1,158 @@
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+	line-height: 1.6;
+ }
+.Titulo {
+     background-image: url(../img/sobre-background.jpg);
+	 padding: 10px;
+	 font-size: 24px;
+	 font-weight: bold;
+	 margin: 20px 0;
+ }
+ 
+figure {
+	 background-color: #f2eded;
+	 text-align: center;
+	 border: 1px groove #ccc;
+	 padding: 15px;
+	 margin: 30px;
+}
+figcaption {
+   font-style: italic;
+   margin-top: 10px
+ }
+ p {
+     padding: 0 45px;
+     text-indent: 20px;
+     text-align: justify;
+ }
+#centro-distribuicao {
+   margin-left: auto;
+   margin-right: auto;
+   width: 550px;
+ }
+ 
+ footer {
+     color: #777;
+     margin: 30px 2px;
+     padding: 30px 0;
+ }
+
+ footer img {
+     margin-right: 30px;
+     vertical-align: middle;
+     width: 94px;
+ }
+ 
+ #Familia {
+	 margin: 0 0 10px 30px;
+	 float: right;
+ }
+ .Sacola {
+	background-image: url(../img/sacola.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	font-size: 14px;
+	text-align: right;
+	width: 140px;
+	padding-right: 35px;
+	padding-top: 6px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 1.2;
+}
+
+.Menu ul{
+	font-size: 15px;
+}
+
+.Menu ul li{
+	display: inline;
+	margin-left: 20px;
+}
+.Menu {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.Menu a{
+	color: #003366;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+  border: none;
+}
+h2 {
+     border-bottom: 2px solid #333333;
+	 margin-top: 30px;
+	 font-size: 18px;
+	 font-weight: bold;
+	 margin-bottom: 30px;
+ }
+ 
+ #Lista {
+	list-style-type: disc;
+	margin-left: 40px;
+	margin-bottom: 20px;
+ }
+ 
+ p::first-letter{
+	font-weight: bold;
+ }
+ 
+ @media (max-width: 939px){
+	body {
+		width: 96%;
+	}
+	.Sacola{
+		display: none;
+	}
+	.container{
+		width: 100%;
+	}
+	header h1 {
+		text-align: center;
+	}
+	header h1 img {
+		max-width: 50%;
+	}
+	.Menu {
+		position: static;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.Menu ul li {
+		display: inline-block;
+		margin: 5px 10px;
+	}
+	#centro-distribuicao {
+		width: 80%;
+		height: 80%;
+	}
+	#centro-distribuicao img{
+		width: 90%;
+	}
+	#Familia {
+		width: 50%;
+		height: 50%;
+		position: relative;
+	}
+	#Familia img {
+		width: 90%;
+		height: 90%;
+	}
+	p {
+		padding: 0;
+	}
+	
+ }
+ 
